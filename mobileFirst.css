@@ -86,10 +86,6 @@ h3 {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .wrapper > div {
-    flex: 1 1 150px;
-  }
-
   .wip-col {
     display: flex;
     height: 2.6rem;
@@ -106,6 +102,7 @@ h3 {
   #gallery-container {
     border: solid 2px blue;
     display: grid;
+    grid-template-columns: repeat(2, 1fr);
     min-width: 1000px;
     align-items: center;
     justify-content: center;
