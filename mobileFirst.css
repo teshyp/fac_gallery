@@ -23,10 +23,25 @@ h3 {
 .project-box {
   border: solid 2px rgb(0, 255, 157);
   padding: 1rem;
-  width: 15rem;
-  max-width: 20rem;
+  max-width: 15.5rem;
   display: flex;
   flex-direction: column;
+}
+
+.desc-hidden {
+  display: none;
+}
+
+.desc-active {
+  border: solid red 2px;
+  background-color: aliceblue;
+  color: black;
+  display: flex;
+  padding: 0.1rem 0 0.1rem 0.1rem;
+  position: absolute;
+  font-size: 0.9rem;
+  height: 8rem;
+  width: 12.4rem;
 }
 
 #gallery-container {
@@ -75,6 +90,13 @@ h3 {
   flex-direction: column;
 }
 
+.btn-about {
+  margin: 1rem 0.5rem 0 0.5rem;
+  font-size: 0.5rem;
+  height: 2.2rem;
+  width: 2.2rem;
+}
+
 .key-features-box {
   display: none;
 }
@@ -84,6 +106,7 @@ h3 {
     border: solid 2px blue;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    min-width: none;
   }
 
   .wip-col {
@@ -129,16 +152,39 @@ h3 {
     height: 15rem;
   }
 
-  .wip-col {
-    height: 5rem;
+  .desc-active {
+    border: solid red 2px;
+    background-color: aliceblue;
+    color: black;
+    display: flex;
+    align-items: center;
+    padding: 3rem;
+    position: absolute;
+    font-size: 0.9rem;
+    height: 8.8rem;
+    min-width: 260px;
+  }
+
+  .desc-text {
+    font-size: 1.2rem;
+  }
+
+  .git-container {
+    margin: 0 0 0 1rem;
   }
 
   .git-images {
     width: 4rem;
   }
 
-  .git-container {
-    margin: 0 0 0 1rem;
+  .btn-about {
+    font-size: 0.8rem;
+    width: 3.5rem;
+    height: 3rem;
+  }
+
+  .wip-col {
+    height: 5rem;
   }
 
   .wip-col {
