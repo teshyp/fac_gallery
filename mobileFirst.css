@@ -30,6 +30,9 @@ h3 {
 
 .desc-hidden {
   display: none;
+  border: none;
+  background-color: none;
+  border: solid blue 2px;
 }
 
 .desc-active {
